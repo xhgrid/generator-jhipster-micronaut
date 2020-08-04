@@ -5,7 +5,7 @@ application {
     baseName jhipster
     blueprints [generator-jhipster-micronaut]
     buildTool gradle
-    cacheProvider ehcache
+    cacheProvider caffeine
     clientFramework angularX
     clientPackageManager npm
     clientTheme litera
